@@ -164,6 +164,7 @@ class DuitkuProcessor
                     'reference' => $response['reference'] ?? null,
                     'payment_url' => $response['paymentUrl'] ?? null,
                     'va_number' => $response['vaNumber'] ?? null,
+                    'qr_string' => $response['qrString'] ?? null,
                     'amount' => (int)($response['amount'] ?? 0),
                     'message' => $response['statusMessage'] ?? null
                 ];
